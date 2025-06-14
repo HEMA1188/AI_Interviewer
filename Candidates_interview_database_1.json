@@ -1,0 +1,1050 @@
+{
+    "HEMASENTHILMURUGAN_f9d4edd0-8e31-4485-8ba8-de96605cc80a": {
+        "questions": {
+            "self_introduction": "Please tell me a little about yourself and your background.",
+            "question_1": "Can you describe the personal project you worked on using LLM and RAG, including the challenges you faced and how you overcame them?",
+            "question_2": "Can you elaborate on the specific challenges you encountered while integrating the Whisper model with the Chroma DB embeddings, and how you addressed those issues?",
+            "question_3": "Based on your experience with video and audio processing, how do you approach optimizing the performance of your workflows, especially when dealing with large datasets?",
+            "question_4": "Can you elaborate on the specific techniques or tools you used for the summarization process, and how they contributed to the efficiency of your workflow?",
+            "question_5": "Given your experience with the Hugging Face summarization model, how do you determine the optimal balance between summarization accuracy and data reduction when working with large datasets?"
+        },
+        "answers": {
+            "self_introduction": "Hi, myself Hema. I'm working as the AI engineer in GoBigEatNetwork Pvt. Ltd. Basically, my company is a edutech company. We are offering course to the students. So, I'm working with many LLMs.",
+            "question_1": "One of my RAC project is extracting video from audio conversion from audio to text conversion using a whisper model with timestamp and stored in a chroma db embeddings, use that embeddings file to build a chatbot using grok and openai models.",
+            "question_2": "I will be explain the complete process. We have a zip file full of videos, initially using moviepy library using video to audio conversion, from audio to text conversion using whisper model with timestamp stored in a chroma db, using recursive character splitters to split into small small chunks.",
+            "question_3": "Yeah, actually it is a nearly 52 videos were there. So using summarization, I'll be including in my project first from audio to video, from video to audio, from audio to text conversion based on the text I have to summarizing it and stored in a chroma db. So it will be helpful to the one.",
+            "question_4": "Yeah, even I am using a Hugging Case Summarization model. So it will be really helpful to reduce the large size of data stored in a chroma db. So the model can be difficult to find the exact extractions from the large data sets. So I am using a summarizing model.",
+            "question_5": "Actually, I don't know about this, could you please explain me regarding your questions?"
+        },
+        "evaluations": {
+            "self_introduction": {
+                "question": "Please tell me a little about yourself and your background.",
+                "answer": "Hi, myself Hema. I'm working as the AI engineer in GoBigEatNetwork Pvt. Ltd. Basically, my company is a edutech company. We are offering course to the students. So, I'm working with many LLMs.",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 12,
+                        "comment": "The candidate briefly mentions their role as an AI engineer and their work with LLMs, which aligns with their resume. However, there is a lack of detail about specific skills or experiences that showcase their proficiency in AI development."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 10,
+                        "comment": "The candidate's response demonstrates basic knowledge of their role but lacks depth. They could specify the types of LLMs they work with or describe their contributions to projects, which would better reflect their understanding of AI development."
+                    },
+                    "Structure_Clarity": {
+                        "score": 10,
+                        "comment": "The response is somewhat disorganized and could benefit from clearer structure. Introducing themselves, outlining their role, and detailing their work in a more logical sequence would enhance clarity."
+                    },
+                    "Communication_Grammar": {
+                        "score": 12,
+                        "comment": "The language used is simple but contains grammatical errors ('myself Hema' should be 'I am Hema'), which detracts from professionalism. A more polished tone is needed."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 15,
+                        "comment": "The feedback highlights areas for improvement while maintaining a positive tone. The candidate is encouraged to elaborate on their experiences, which could boost their confidence and presentation."
+                    },
+                    "Overall_Score": 59,
+                    "Normalized_Score_Out_Of_100": "59.00",
+                    "Improvement_Suggestions": "Focus on providing specific examples of projects or technologies you have worked with to demonstrate your skills more effectively. Practice structuring your responses to build a clearer narrative about your experience and contributions.",
+                    "Sample_Answer": "Hello, I'm Hema, an AI engineer at GoBigEatNetwork Pvt. Ltd., where we develop educational tools for students. With a year of experience in AI development, I primarily work with large language models (LLMs) to enhance our course offerings. My recent project involved integrating an LLM with retrieval-augmented generation techniques to improve the interactive learning experience. I am passionate about leveraging AI to make education more accessible and engaging."
+                }
+            },
+            "question_1": {
+                "question": "Can you describe the personal project you worked on using LLM and RAG, including the challenges you faced and how you overcame them?",
+                "answer": "One of my RAC project is extracting video from audio conversion from audio to text conversion using a whisper model with timestamp and stored in a chroma db embeddings, use that embeddings file to build a chatbot using grok and openai models.",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 15,
+                        "comment": "The response touches on relevant skills such as using a whisper model and chatbot development, which align with the resume's focus on AI and LLMs. However, the description of the project lacks clarity in its relation to specific challenges faced and how they were overcome."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 12,
+                        "comment": "The candidate demonstrates some understanding of AI concepts and tools (whisper model, embeddings, chatbot), but the depth is limited. More insight into the challenges and technical details would indicate a stronger grasp of the subject matter."
+                    },
+                    "Structure_Clarity": {
+                        "score": 10,
+                        "comment": "The answer lacks clear organization and coherence, making it difficult to follow. A more structured format would improve clarity significantly."
+                    },
+                    "Communication_Grammar": {
+                        "score": 10,
+                        "comment": "The language used is somewhat unclear, with grammatical issues that hinder understanding. A more polished response would enhance professionalism."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 15,
+                        "comment": "The feedback is constructive, but it could emphasize the positive aspects of the candidate's work while also providing clearer guidance on how to improve."
+                    },
+                    "Overall_Score": 62,
+                    "Normalized_Score_Out_Of_100": "62.00",
+                    "Improvement_Suggestions": "Focus on structuring your answers more clearly and practice articulating the challenges you faced in your projects. This will help provide a deeper insight into your problem-solving skills.",
+                    "Sample_Answer": "In my personal project, I developed a system that converts audio to text using the Whisper model, capturing timestamps for each segment. One of the main challenges I faced was ensuring the accuracy of transcription across different audio qualities. To overcome this, I implemented a feedback loop that allowed me to fine-tune the model based on initial outputs. After processing the audio, I stored the embeddings in a Chroma database and built a chatbot using OpenAI's models, which enabled users to interact with the transcribed content seamlessly. This project not only enhanced my technical skills in AI but also taught me the importance of iterative testing and validation."
+                }
+            },
+            "question_2": {
+                "question": "Can you elaborate on the specific challenges you encountered while integrating the Whisper model with the Chroma DB embeddings, and how you addressed those issues?",
+                "answer": "I will be explain the complete process. We have a zip file full of videos, initially using moviepy library using video to audio conversion, from audio to text conversion using whisper model with timestamp stored in a chroma db, using recursive character splitters to split into small small chunks.",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 12,
+                        "comment": "The answer partially addresses the question regarding the integration of the Whisper model and Chroma DB embeddings. However, it lacks specific details about the challenges faced and how they were overcome, which are crucial to fully align with the question's intent."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 10,
+                        "comment": "The candidate demonstrates some familiarity with relevant technologies like Whisper and Chroma DB, but the explanation lacks depth. More detail on the challenges and the thought process would better showcase their understanding and experience in AI development."
+                    },
+                    "Structure_Clarity": {
+                        "score": 8,
+                        "comment": "The response is somewhat disorganized and lacks a clear structure. Breaking down the process into clearer steps and explaining each part would improve clarity and make it easier for the listener to follow."
+                    },
+                    "Communication_Grammar": {
+                        "score": 10,
+                        "comment": "The response contains grammatical errors and informal language ('small small chunks'), which detracts from professionalism. Improved grammar and a more formal tone would enhance the response."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 15,
+                        "comment": "The feedback is generally positive, but it could better encourage the candidate to elaborate on their experiences and challenges. Highlighting the importance of clear communication and detail would be beneficial."
+                    },
+                    "Overall_Score": 55,
+                    "Normalized_Score_Out_Of_100": "55.00",
+                    "Improvement_Suggestions": "Focus on providing specific examples of challenges encountered and solutions implemented to enhance your answer. Improve the organization and clarity of your response for better communication.",
+                    "Sample_Answer": "In my personal project integrating the Whisper model with Chroma DB embeddings, I faced challenges with handling the varying audio quality from the video files. To address this, I first implemented an audio pre-processing step using the moviepy library to ensure a consistent format before passing the audio to the Whisper model. I also had to fine-tune the parameters for the recursive character splitters to optimize the chunk sizes for better transcription accuracy. This structured approach helped me efficiently manage the integration process."
+                }
+            },
+            "question_3": {
+                "question": "Based on your experience with video and audio processing, how do you approach optimizing the performance of your workflows, especially when dealing with large datasets?",
+                "answer": "Yeah, actually it is a nearly 52 videos were there. So using summarization, I'll be including in my project first from audio to video, from video to audio, from audio to text conversion based on the text I have to summarizing it and stored in a chroma db. So it will be helpful to the one.",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 10,
+                        "comment": "The answer vaguely touches on video and audio processing by mentioning summarization and conversion but does not directly relate to optimizing workflows with large datasets as per the question."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 8,
+                        "comment": "The candidate shows some understanding of the processes involved, like summarization and data storage, but lacks depth in explaining optimization strategies, which is critical for the question."
+                    },
+                    "Structure_Clarity": {
+                        "score": 6,
+                        "comment": "The response is disorganized and lacks a clear flow, making it hard to follow the candidate\u2019s thought process."
+                    },
+                    "Communication_Grammar": {
+                        "score": 5,
+                        "comment": "The language used is informal and contains grammatical errors, such as 'there' instead of 'were' and awkward phrasing that detracts from professionalism."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 15,
+                        "comment": "While the feedback is constructive, it could be more encouraging by highlighting specific strengths and providing more direct suggestions for improvement."
+                    },
+                    "Overall_Score": 44,
+                    "Normalized_Score_Out_Of_100": "44.00",
+                    "Improvement_Suggestions": "Focus on structuring your answers more clearly and use professional language to improve clarity and impression. Consider elaborating on specific optimization techniques you've learned in your coursework or projects.",
+                    "Sample_Answer": "In my experience with video and audio processing, I approach optimizing workflows by first analyzing the dataset to identify bottlenecks. For instance, when I worked on a project involving 52 videos, I utilized techniques such as batch processing to handle data efficiently and implemented summarization algorithms to reduce the data size without losing essential information. Additionally, I stored the processed data in a structured database, like Chroma DB, to facilitate quick access and retrieval during analysis, ensuring the workflow remains efficient even with large datasets."
+                }
+            },
+            "question_4": {
+                "question": "Can you elaborate on the specific techniques or tools you used for the summarization process, and how they contributed to the efficiency of your workflow?",
+                "answer": "Yeah, even I am using a Hugging Case Summarization model. So it will be really helpful to reduce the large size of data stored in a chroma db. So the model can be difficult to find the exact extractions from the large data sets. So I am using a summarizing model.",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 12,
+                        "comment": "The response identifies the use of a summarization model, which aligns with the candidate's experience in AI development. However, it lacks specific details about the techniques and how they enhance workflow efficiency."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 10,
+                        "comment": "The answer shows a basic understanding of summarization models but lacks depth on how they function or their specific contributions to the workflow, which is expected given the candidate's coursework in Python and AI development."
+                    },
+                    "Structure_Clarity": {
+                        "score": 8,
+                        "comment": "The response is somewhat disorganized and difficult to follow, with unclear phrases like 'Hugging Case Summarization model' and 'exact extractions.' More structure is needed."
+                    },
+                    "Communication_Grammar": {
+                        "score": 10,
+                        "comment": "The language is informal and contains grammatical issues, such as 'even I am using' instead of 'I am using.' Clearer and more professional language is needed."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 15,
+                        "comment": "The feedback is encouraging but could provide more specific suggestions for improvement to help the candidate grow."
+                    },
+                    "Overall_Score": 55,
+                    "Normalized_Score_Out_100": "55.00",
+                    "Improvement_Suggestions": "Focus on providing specific examples of the tools and techniques used, and practice structuring your responses more clearly to enhance clarity.",
+                    "Sample_Answer": "In my project, I utilized the Hugging Face summarization model, specifically the BART model, which allows for efficient summarization of large datasets stored in a Chroma DB. By employing this model, I was able to effectively condense information while preserving key insights, thus streamlining my analysis process. This not only improved data handling efficiency but also made it easier to extract relevant information quickly."
+                }
+            },
+            "question_5": {
+                "question": "Given your experience with the Hugging Face summarization model, how do you determine the optimal balance between summarization accuracy and data reduction when working with large datasets?",
+                "answer": "Actually, I don't know about this, could you please explain me regarding your questions?",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 0,
+                        "comment": "The candidate did not address the question at all and instead asked for clarification, which does not demonstrate any relevant skills related to summarization or AI development as indicated on the resume."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 0,
+                        "comment": "There is no evidence of knowledge depth in the area of summarization models or data processing, which are expected to be part of the candidate's skill set given their coursework and project experience."
+                    },
+                    "Structure_Clarity": {
+                        "score": 8,
+                        "comment": "The response is direct and understandable, but it lacks a structured explanation or attempt to engage with the question, limiting its clarity."
+                    },
+                    "Communication_Grammar": {
+                        "score": 15,
+                        "comment": "The language is mostly clear and professional, though the use of 'could you please explain me' should be corrected to 'could you please explain it to me' for grammatical accuracy."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 10,
+                        "comment": "While the response shows a willingness to learn, it does not reflect proactive engagement with the question, which is crucial at this level."
+                    },
+                    "Overall_Score": 33,
+                    "Normalized_Score_Out_Of_100": "33.00",
+                    "Improvement_Suggestions": "Focus on building foundational knowledge about summarization models and practice formulating responses to technical questions. Consider reviewing relevant AI concepts or frameworks to enhance your confidence during interviews.",
+                    "Sample_Answer": "In my experience with the Hugging Face summarization model, I find that achieving a balance between accuracy and data reduction involves iterative testing. I typically start by adjusting the model parameters such as the maximum length of the summary and the temperature settings, which influence the creativity and precision of the output. By evaluating the summaries against a validation set, I can iteratively refine the settings to maintain high accuracy while effectively reducing the dataset size. This approach allows me to leverage both qualitative assessments and quantitative metrics to find the optimal balance."
+                }
+            }
+        }
+    },
+    "HEMA_91b7b19e-ea55-419a-b0c0-fb024ea34065": {
+        "questions": {
+            "self_introduction": "Please tell me a little about yourself and your background.",
+            "question_1": "Can you describe the most challenging aspect you faced while developing the real-time AI interviewer platform, and how you overcame it using your technical skills?",
+            "question_2": "Can you elaborate on how you integrated the different OpenAI models for TTS, STT, and text generation, and what challenges you faced in that integration process?",
+            "question_3": "Given your experience with integrating various OpenAI modules, can you describe a specific instance where documentation played a crucial role in troubleshooting or optimizing one of your projects?",
+            "question_4": "Can you explain how you ensured a smooth grading process without encountering issues, and what best practices you implemented to achieve that?",
+            "question_5": "Can you discuss the specific metrics or criteria you established for grading candidate responses in your AI interviewer project, and how you ensured these metrics were effectively implemented in the evaluation process?",
+            "question_6": "Can you elaborate on how you determined the weight or importance of each criterion in your scoring rubric?",
+            "question_7": "Given your focus on providing constructive feedback to candidates, can you share an example of a specific feedback mechanism you implemented in your AI interviewer project that directly led to measurable improvements in candidate performance?"
+        },
+        "answers": {
+            "self_introduction": "Myself Hema, I'm working as an AI engineer in Ruby Geek Network Pvt. Ltd. I'm working with many LLM and RAC based projects. Thank you for giving me this wonderful opportunity.",
+            "question_1": "Yeah, I'm currently working with the AI interviewer application project. For that, I'm using for TTS function using OpenAI model, STT function for OpenAI Whisper model. For text generation, I'm using OpenAI Quorum E model for a question generation as well as evaluation process. That's all.",
+            "question_2": "Yeah, actually, I've gone through the documentation process, particularly in OpenAI websites. So it can be really helpful to integrate all these modules into a complete project flow. So I didn't face any difficulties in my project.",
+            "question_3": "Actually, for troubleshooting, actually I didn't face any issues on my project, particularly for the grading process.",
+            "question_4": "For grading the, evaluating the candidate response, it will be main part in the AI interviewer project. So, based on the tone, grammatical mistakes, how depth, knowledge and particular skills, so all these are separately evaluating and consolidating it.",
+            "question_5": "Yes, I am using a rubric methodology like to evaluating the depth knowledge and relevances to the answer and AI to engagement and grammatical constraints. So, actually I am splitting each one of the session out of 20 scores and consolidate it.",
+            "question_6": "Actually, I didn't work on it, yeah, the main thing is our evaluation, our feedback, it will be really helpful to the candidate to improving their communication skills and improving their technology knowledge or whatever field they have to be.",
+            "question_7": "Yeah, for using a candidate dashboard and for a graphical method, so we have to split it into separate skills, particularly for major skills out of 10, how they will be getting it. It will be overall."
+        },
+        "evaluations": {
+            "self_introduction": {
+                "question": "Please tell me a little about yourself and your background.",
+                "answer": "Myself Hema, I'm working as an AI engineer in Ruby Geek Network Pvt. Ltd. I'm working with many LLM and RAC based projects. Thank you for giving me this wonderful opportunity.",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 8,
+                        "comment": "The candidate briefly mentions working as an AI engineer and references LLM and RAC projects, which aligns with their experience in AI/ML and backend development. However, they did not elaborate on specific skills or projects, limiting the relevance."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 6,
+                        "comment": "The answer lacks depth regarding their knowledge and experience in AI/ML technologies, such as specific frameworks or projects they have worked on. The candidate could have highlighted specific achievements or technologies from their resume."
+                    },
+                    "Structure_Clarity": {
+                        "score": 7,
+                        "comment": "The response is quite brief and lacks a clear structure, making it difficult to follow. A more detailed introduction to their background and specific experiences would enhance clarity."
+                    },
+                    "Communication_Grammar": {
+                        "score": 10,
+                        "comment": "The grammar and language are mostly clear, but the use of 'Myself Hema' is awkward; 'I am Hema' would be more appropriate. Overall, the tone is polite and professional."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 12,
+                        "comment": "The feedback provided is neutral and does not offer strong encouragement or guidance for improvement. It would benefit from being more constructive and growth-oriented."
+                    },
+                    "Overall_Score": 43,
+                    "Normalized_Score_Out_Of_100": "43.00",
+                    "Improvement_Suggestions": "Expand on specific projects and technologies related to AI/ML to demonstrate depth. Structure answers with a brief introduction, key experiences, and a conclusion to enhance clarity.",
+                    "Sample_Answer": "Hello, my name is Hema, and I am currently working as an AI/ML Engineer at GUVI Geek Network. With nearly 1.6 years of experience, I have developed several projects, including a real-time AI interviewer platform using FASTAPI and WebRTC, and an advanced RAG chatbot leveraging OpenAI's technologies. I have a strong foundation in Python and have utilized various AI/ML frameworks such as Hugging Face Transformers and XGBoost to create scalable solutions. I'm excited about the opportunity to discuss how my experience can contribute to your team."
+                }
+            },
+            "question_1": {
+                "question": "Can you describe the most challenging aspect you faced while developing the real-time AI interviewer platform, and how you overcame it using your technical skills?",
+                "answer": "Yeah, I'm currently working with the AI interviewer application project. For that, I'm using for TTS function using OpenAI model, STT function for OpenAI Whisper model. For text generation, I'm using OpenAI Quorum E model for a question generation as well as evaluation process. That's all.",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 10,
+                        "comment": "The answer mentions using TTS with the OpenAI model and STT with OpenAI Whisper, which aligns with the skills listed in the resume. However, it lacks specific details about the challenges faced, which is the core of the question."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 8,
+                        "comment": "The candidate shows some understanding of the technologies involved but does not demonstrate depth regarding the challenges of integration or specific technical hurdles overcome, which are crucial for a role with their stated experience."
+                    },
+                    "Structure_Clarity": {
+                        "score": 6,
+                        "comment": "The response is somewhat disorganized and lacks a clear structure. The candidate could benefit from breaking down their answer into specific challenges and resolutions to enhance clarity."
+                    },
+                    "Communication_Grammar": {
+                        "score": 10,
+                        "comment": "The language is generally clear, but there are some informal elements (e.g., 'that's all') that detract from professionalism. A more formal tone would be beneficial."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 12,
+                        "comment": "While the answer demonstrates some enthusiasm, it does not convey a strong growth mindset or self-reflection, which are important for encouraging learning and improvement."
+                    },
+                    "Overall_Score": 46,
+                    "Normalized_Score_Out_Of_100": "46.00",
+                    "Improvement_Suggestions": "Focus on detailing specific challenges faced during the project and how you addressed them with your technical skills. Structure your responses more clearly by separating challenges and solutions.",
+                    "Sample_Answer": "In developing the real-time AI interviewer platform, the most challenging aspect was ensuring seamless integration between the speech-to-text (STT) and text-to-speech (TTS) functionalities. Initially, I faced issues with latency and accuracy of the OpenAI Whisper model. To overcome this, I implemented a caching mechanism to optimize response times and utilized rigorous testing with Pytest to fine-tune the integration. This approach not only improved the user experience but also ensured that the evaluations were accurate and timely."
+                }
+            },
+            "question_2": {
+                "question": "Can you elaborate on how you integrated the different OpenAI models for TTS, STT, and text generation, and what challenges you faced in that integration process?",
+                "answer": "Yeah, actually, I've gone through the documentation process, particularly in OpenAI websites. So it can be really helpful to integrate all these modules into a complete project flow. So I didn't face any difficulties in my project.",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 10,
+                        "comment": "The answer shows some understanding of integrating OpenAI models but lacks specific examples or details that link back to the candidate's experiences in their resume, such as the TTS and STT integration in their projects."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 8,
+                        "comment": "The candidate mentions consulting documentation, which indicates some familiarity, but they do not demonstrate depth of knowledge regarding challenges faced or specific technologies used, which is essential for their role."
+                    },
+                    "Structure_Clarity": {
+                        "score": 10,
+                        "comment": "The response is somewhat clear but lacks a structured approach. It could benefit from a more methodical breakdown of the integration process and any challenges encountered."
+                    },
+                    "Communication_Grammar": {
+                        "score": 12,
+                        "comment": "The language is mostly clear, but informal phrasing like 'Yeah, actually' detracts from professionalism. More formal language would improve the tone."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 15,
+                        "comment": "The feedback is constructive but could be more positive and focused on growth, specifically by encouraging the candidate to elaborate on their experiences and challenges faced."
+                    },
+                    "Overall_Score": 55,
+                    "Normalized_Score_Out_Of_100": "55.00",
+                    "Improvement_Suggestions": "1. Provide specific examples from your projects that detail the integration process and challenges faced. 2. Use more formal language to enhance professionalism in your responses.",
+                    "Sample_Answer": "In my recent project, I integrated OpenAI models for TTS, STT, and text generation by first setting up a communication pipeline using FASTAPI. I faced challenges with latency during real-time interactions, which I resolved by optimizing the WebSocket connections. Specifically, I utilized the OpenAI API for TTS and STT, ensuring that the audio processing was seamless. Through thorough testing with pytest, I was able to refine the integration, achieving a more fluid user experience."
+                }
+            },
+            "question_3": {
+                "question": "Given your experience with integrating various OpenAI modules, can you describe a specific instance where documentation played a crucial role in troubleshooting or optimizing one of your projects?",
+                "answer": "Actually, for troubleshooting, actually I didn't face any issues on my project, particularly for the grading process.",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 5,
+                        "comment": "The answer lacks relevance to the question about documentation's role in troubleshooting. While the candidate mentions not facing issues, they do not connect this experience with the integration of OpenAI modules, which is a key aspect of their resume."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 5,
+                        "comment": "The candidate did not demonstrate depth in their understanding of documentation practices or how they apply to troubleshooting in AI projects, which is expected given their experience level."
+                    },
+                    "Structure_Clarity": {
+                        "score": 10,
+                        "comment": "The response is somewhat clear but lacks a coherent structure. The repetitive phrasing ('actually') detracts from the clarity and flow of the answer."
+                    },
+                    "Communication_Grammar": {
+                        "score": 10,
+                        "comment": "While the language is generally professional, the repeated use of 'actually' and the vague nature of the response suggest a lack of polish that could be improved."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 10,
+                        "comment": "The feedback provided here is constructive but lacks encouragement for the candidate to explore and elaborate on their experiences with documentation."
+                    },
+                    "Overall_Score": 40,
+                    "Normalized_Score_Out_Of_100": "40.00",
+                    "Improvement_Suggestions": "Focus on providing specific examples related to your experience with documentation in AI projects. Practice structuring your responses more clearly to enhance communication.",
+                    "Sample_Answer": "In my work on the AI mock interviewer project, I found the OpenAI API documentation invaluable when integrating the scoring logic. During the initial implementation, I encountered issues with the model's response accuracy. By revisiting the documentation, I discovered specific parameters I could adjust to optimize the model's performance, which ultimately improved the grading process significantly."
+                }
+            },
+            "question_4": {
+                "question": "Can you explain how you ensured a smooth grading process without encountering issues, and what best practices you implemented to achieve that?",
+                "answer": "For grading the, evaluating the candidate response, it will be main part in the AI interviewer project. So, based on the tone, grammatical mistakes, how depth, knowledge and particular skills, so all these are separately evaluating and consolidating it.",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 10,
+                        "comment": "The answer touches on the grading process related to the AI interviewer project, which is relevant to the candidate's experience with real-time AI applications. However, it lacks specific details about best practices or methods derived from their resume."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 8,
+                        "comment": "The candidate shows some understanding of evaluation criteria but does not elaborate on the technical aspects of grading integration, which is a crucial part of their resume experience in AI and ML development."
+                    },
+                    "Structure_Clarity": {
+                        "score": 6,
+                        "comment": "The response is poorly structured and lacks clarity; it feels fragmented and does not clearly convey the thought process or the connection to best practices."
+                    },
+                    "Communication_Grammar": {
+                        "score": 5,
+                        "comment": "The response contains grammatical mistakes and awkward phrasing, which detracts from professionalism and clarity. For example, 'the, evaluating the candidate response' is confusing."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 12,
+                        "comment": "While the response does show some potential for understanding, it lacks a positive tone and does not convey encouragement for growth or development based on their experience."
+                    },
+                    "Overall_Score": 41,
+                    "Normalized_Score_Out_Of_100": "41.00",
+                    "Improvement_Suggestions": "Focus on clearly articulating specific best practices used during the grading process. Improve grammar and structure for clarity in responses.",
+                    "Sample_Answer": "To ensure a smooth grading process in the AI interviewer project, I implemented several best practices. First, I established a clear rubric for evaluating candidate responses, focusing on aspects such as tone, clarity, and relevance to the questions asked. Additionally, I integrated real-time feedback mechanisms using STT and TTS technologies, which allowed for immediate assessments. Regular testing with frameworks like pytest helped maintain the grading system's reliability and accuracy, ensuring a seamless experience for users."
+                }
+            },
+            "question_5": {
+                "question": "Can you discuss the specific metrics or criteria you established for grading candidate responses in your AI interviewer project, and how you ensured these metrics were effectively implemented in the evaluation process?",
+                "answer": "Yes, I am using a rubric methodology like to evaluating the depth knowledge and relevances to the answer and AI to engagement and grammatical constraints. So, actually I am splitting each one of the session out of 20 scores and consolidate it.",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 10,
+                        "comment": "The candidate mentions using a rubric methodology for evaluating responses, which aligns with their experience in developing an AI interviewer, but lacks specific metrics related to grading, which would show a deeper connection to the skills outlined in their resume."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 8,
+                        "comment": "While the candidate demonstrates some understanding of evaluation criteria, they do not elaborate on the specific metrics or their implementation, indicating a gap in depth of knowledge related to the AI evaluation process."
+                    },
+                    "Structure_Clarity": {
+                        "score": 10,
+                        "comment": "The response is somewhat organized but lacks clear separation of ideas, making it difficult to grasp the full scope of their approach to grading candidate responses."
+                    },
+                    "Communication_Grammar": {
+                        "score": 12,
+                        "comment": "The candidate's language is generally clear but contains grammatical errors such as 'like to evaluating' and 'each one of the session out of 20 scores', which detract from the professionalism of the response."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 15,
+                        "comment": "The response shows a positive attitude towards evaluation processes, but could benefit from a more confident and assertive tone when discussing metrics and their implementation."
+                    },
+                    "Overall_Score": 55,
+                    "Normalized_Score_Out_Of_100": "55.00",
+                    "Improvement_Suggestions": "Focus on expanding your answer to include specific metrics used for grading, and ensure your language is grammatically correct for clearer communication.",
+                    "Sample_Answer": "In the AI interviewer project, I established a grading rubric based on several metrics including relevance, depth of knowledge, clarity of expression, and engagement level. Each criterion was scored out of 20, with clear definitions for each score to ensure consistency. I implemented these metrics by conducting pilot evaluations and refining them based on feedback, ensuring that the AI's grading aligns with human evaluators' expectations."
+                }
+            },
+            "question_6": {
+                "question": "Can you elaborate on how you determined the weight or importance of each criterion in your scoring rubric?",
+                "answer": "Actually, I didn't work on it, yeah, the main thing is our evaluation, our feedback, it will be really helpful to the candidate to improving their communication skills and improving their technology knowledge or whatever field they have to be.",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 5,
+                        "comment": "The answer does not directly address the question regarding the determination of weight for evaluation criteria, showing a lack of connection with skills demonstrated on the resume such as analytical thinking and evaluation in AI/ML projects."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 4,
+                        "comment": "The candidate's response lacks depth regarding their understanding of evaluation metrics or methodologies, which is crucial for an AI/ML Engineer. They should leverage their experience in backend development and AI-driven platforms to elaborate on assessment criteria."
+                    },
+                    "Structure_Clarity": {
+                        "score": 6,
+                        "comment": "The response is somewhat unclear and not well-structured. The ideas presented are disjointed, making it difficult to follow the candidate's line of reasoning."
+                    },
+                    "Communication_Grammar": {
+                        "score": 7,
+                        "comment": "The language used is informal and lacks professionalism. There are grammatical issues, such as incomplete sentences, which detract from the clarity of the message."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 6,
+                        "comment": "While the candidate acknowledges the importance of feedback for improvement, the overall tone is not as encouraging or constructive as it could be, lacking specific suggestions for growth."
+                    },
+                    "Overall_Score": 28,
+                    "Normalized_Score_Out_Of_100": "28.00",
+                    "Improvement_Suggestions": "Focus on articulating your thoughts more clearly and structure your responses logically. Enhance your understanding of evaluation metrics to provide a more informed perspective in future discussions.",
+                    "Sample_Answer": "In determining the weight of each criterion in the scoring rubric, I would analyze their relevance to the project's specific goals and outcomes. For instance, in my experience developing the real-time AI interviewer, I prioritized accuracy and user feedback since they directly impact user experience and engagement. I would also consider the importance of knowledge depth in the AI/ML domain, as a strong foundation in machine learning principles is crucial for developing effective models. By assessing the impact of each criterion on overall performance, I aim to create a balanced evaluation system that fosters continuous improvement."
+                }
+            },
+            "question_7": {
+                "question": "Given your focus on providing constructive feedback to candidates, can you share an example of a specific feedback mechanism you implemented in your AI interviewer project that directly led to measurable improvements in candidate performance?",
+                "answer": "Yeah, for using a candidate dashboard and for a graphical method, so we have to split it into separate skills, particularly for major skills out of 10, how they will be getting it. It will be overall.",
+                "evaluation": {
+                    "Relevance_Accuracy": {
+                        "score": 8,
+                        "comment": "The response mentions a candidate dashboard, which aligns with the candidate's experience in developing a real-time AI interviewer. However, the explanation lacks specific details on how the feedback mechanism directly led to measurable improvements, which is crucial for demonstrating the impact of their work."
+                    },
+                    "Knowledge_Depth": {
+                        "score": 6,
+                        "comment": "The candidate shows some understanding of performance metrics, but fails to provide depth regarding the feedback mechanism's implementation or its effects on candidate performance. Given their experience with backend development and AI, more specific examples related to measurable outcomes are expected."
+                    },
+                    "Structure_Clarity": {
+                        "score": 5,
+                        "comment": "The response is poorly structured and difficult to follow. Clearer organization would help convey the candidate's thoughts more effectively, particularly in separating the explanation of the mechanism from the intended outcomes."
+                    },
+                    "Communication_Grammar": {
+                        "score": 6,
+                        "comment": "The language used is informal and contains grammatical issues. A more professional tone and proper sentence structure would enhance clarity and professionalism."
+                    },
+                    "AI_Tone_Encouragement": {
+                        "score": 7,
+                        "comment": "While the feedback is generally constructive, the response does not demonstrate a growth mindset or a willingness to learn from the situation. Encouraging the candidate to elaborate on measurable results would be beneficial."
+                    },
+                    "Overall_Score": 32,
+                    "Normalized_Score_Out_Of_100": "32.00",
+                    "Improvement_Suggestions": "- Focus on providing specific examples of how feedback mechanisms led to improvements in candidate performance. \n- Structure your response more clearly, outlining the mechanism and its measurable effects separately.",
+                    "Sample_Answer": "In our AI interviewer project, I implemented a candidate dashboard that tracked individual performance metrics across key skills, such as communication and technical knowledge. After each mock interview, candidates received tailored feedback based on their scores. For instance, we noticed that candidates who received targeted feedback on their communication skills improved their scores by an average of 15% in subsequent interviews. This data-driven approach not only helped candidates identify their strengths and weaknesses but also fostered a continuous improvement mindset."
+                }
+            }
+        }
+    },
+    "HemaSenthilMurugan_c9160308-cbb2-434f-8799-5d0c92537573": {
+        "questions": {
+            "q1_python_django_project": "Can you describe a complex Django project you've managed, detailing your approach to structuring the application, managing dependencies, and implementing scalable solutions, particularly in relation to AWS services like EC2 and S3?",
+            "q2_aws_experience": "Can you describe a complex project where you utilized AWS EC2 and S3 to build a scalable web application? Please include details on the architecture, challenges you faced, and how you ensured performance and cost efficiency.",
+            "q3_problem_solving_design": "Can you describe a complex web application you designed using Python and AWS services that required careful architectural planning to ensure scalability and problem-solving for performance issues? What specific challenges did you face, and how did you address them?"
+        },
+        "answers": {
+            "q1_python_django_project": "In my previous role at Tech Solutions Inc., I led the development of a new customer management portal using Python and Django. My key contributions included designing the database schema, implementing the user authentication system, and optimizing database queries. The main challenge was integrating with a legacy CRM, which required careful planning, data mapping, and custom middleware. I addressed this by developing a robust API layer on top of the CRM.",
+            "q2_aws_experience": "I have experience with several AWS services, including EC2 for compute, S3 for scalable object storage, and RDS for managed databases. In one project, we migrated an on-premise application to AWS, setting up auto-scaling EC2 instances behind an Application Load Balancer and storing user-uploaded content in S3. We also utilized CloudWatch for monitoring and SQS for decoupling microservices, significantly improving our system's fault tolerance and scalability.",
+            "q3_problem_solving_design": "Certainly. One significant design challenge I faced was ensuring high availability for a critical microservice. We decided to implement a redundant architecture using an active-passive setup across multiple availability zones in AWS. This involved setting up health checks, automated failover mechanisms, and ensuring data consistency across replicas. We also employed circuit breakers and bulkheads to isolate failures."
+        },
+        "evaluations": {
+            "q1_python_django_project": {
+                "question": "Can you describe a complex Django project you've managed, detailing your approach to structuring the application, managing dependencies, and implementing scalable solutions, particularly in relation to AWS services like EC2 and S3?",
+                "answer": "In my previous role at Tech Solutions Inc., I led the development of a new customer management portal using Python and Django. My key contributions included designing the database schema, implementing the user authentication system, and optimizing database queries. The main challenge was integrating with a legacy CRM, which required careful planning, data mapping, and custom middleware. I addressed this by developing a robust API layer on top of the CRM.",
+                "skill_assessed": "Python, Django, Project Management",
+                "evaluation": {
+                    "relevance_score": 4,
+                    "depth_score": 4,
+                    "accuracy_score": 5,
+                    "completeness_score": 3,
+                    "communication_score": 4,
+                    "overall_score": 8,
+                    "rationale": "The candidate's answer is relevant as it discusses a Django project, which aligns with their experience in Python and web development. However, the response lacks specific details about structuring the application, managing dependencies, and the implementation of AWS services, which were key components of the question. The depth of the technical explanation is appropriate for a candidate with 6 years of experience, but it could be improved with more detailed exploration of scalable solutions and AWS integration. The information aligns with the resume and presents facts accurately. The answer is relatively comprehensive but could be more detailed in terms of the AWS services used. Communication is clear, but some points could be better organized to enhance understanding."
+                }
+            },
+            "q2_aws_experience": {
+                "question": "Can you describe a complex project where you utilized AWS EC2 and S3 to build a scalable web application? Please include details on the architecture, challenges you faced, and how you ensured performance and cost efficiency.",
+                "answer": "I have experience with several AWS services, including EC2 for compute, S3 for scalable object storage, and RDS for managed databases. In one project, we migrated an on-premise application to AWS, setting up auto-scaling EC2 instances behind an Application Load Balancer and storing user-uploaded content in S3. We also utilized CloudWatch for monitoring and SQS for decoupling microservices, significantly improving our system's fault tolerance and scalability.",
+                "skill_assessed": "AWS Cloud Services, Scalability",
+                "evaluation": {
+                    "relevance_score": 5,
+                    "depth_score": 4,
+                    "accuracy_score": 5,
+                    "completeness_score": 4,
+                    "communication_score": 4,
+                    "overall_score": 9,
+                    "rationale": "The candidate's answer is highly relevant as it directly addresses the use of AWS EC2 and S3 in building a scalable web application, aligning well with their experience. The depth of the response is strong, showcasing knowledge of auto-scaling, load balancing, and monitoring, but could have included more specific metrics or outcomes to reach full depth. Information presented is accurate and consistent with the resume, reflecting the candidate's 6 years of experience. The answer is mostly comprehensive, though it could have benefited from additional details regarding specific challenges faced and cost management strategies. Communication is clear and structured, yet there are areas where more conciseness could enhance clarity. Overall, the candidate demonstrates a solid understanding and application of advanced AWS concepts."
+                }
+            },
+            "q3_problem_solving_design": {
+                "question": "Can you describe a complex web application you designed using Python and AWS services that required careful architectural planning to ensure scalability and problem-solving for performance issues? What specific challenges did you face, and how did you address them?",
+                "answer": "Certainly. One significant design challenge I faced was ensuring high availability for a critical microservice. We decided to implement a redundant architecture using an active-passive setup across multiple availability zones in AWS. This involved setting up health checks, automated failover mechanisms, and ensuring data consistency across replicas. We also employed circuit breakers and bulkheads to isolate failures.",
+                "skill_assessed": "High Availability, System Design, Problem Solving",
+                "evaluation": {
+                    "relevance_score": 5,
+                    "depth_score": 5,
+                    "accuracy_score": 5,
+                    "completeness_score": 4,
+                    "communication_score": 5,
+                    "overall_score": 10,
+                    "rationale": "The candidate's answer is highly relevant to the question as it discusses a complex web application designed using AWS services, directly aligning with their 6 years of experience in Python and web development. The depth of the answer is appropriate for an advanced level, demonstrating an understanding of architectural planning, redundancy, and performance optimization techniques. The information provided is accurate and consistent with the candidate's resume, showcasing their familiarity with AWS features like health checks and failover mechanisms. The answer is comprehensive, covering the significant challenges faced and the strategies employed without being overly verbose. Lastly, the communication is clear and structured, effectively articulating the technical concepts involved."
+                }
+            }
+        }
+    },
+    "HEMA_2b26ffab-0ac4-4bce-a778-fdb6677c2196": {
+        "questions": {
+            "self_introduction": "Please tell me a little about yourself and your background.",
+            "question_1": "Can you describe a specific challenge you faced while implementing real-time communication using WebRTC in your AI interviewer project, and how you resolved it?",
+            "question_2": "Can you elaborate on how you integrated FastAPI with WebSocket in your AI interviewer project to enhance real-time communication, and what specific advantages did you find in that approach compared to other frameworks?",
+            "question_3": "Given your experience with WebSocket and WebRTC for reducing latency in your AI interviewer project, can you discuss how you approached optimizing the real-time communication pipeline? Specifically, what techniques or strategies did you implement to ensure low latency while maintaining high-quality audio/text interaction, and how do you measure the effectiveness of these optimizations?",
+            "question_4": "Can you elaborate on how you integrated FastAPI with WebSocket and WebRTC in your project to enhance the performance of the real-time communication, specifically focusing on any challenges you faced and how you overcame them?",
+            "question_5": "Given your extensive experience with real-time systems and the development of your AI interviewer platform, can you share how you approached the challenge of ensuring data integrity and synchronization across multiple client connections when using WebSocket? Additionally, what strategies did you implement to manage potential network latency issues and ensure a smooth user experience during real-time interactions?",
+            "question_6": "Could you elaborate on a different project where you utilized FastAPI for building a machine learning application, specifically focusing on how you handled model deployment and ensured efficient API performance?",
+            "question_7": "Given your experience with developing a rap-based chatbot utilizing video-to-audio and audio-to-text conversion, can you walk us through the specific aspects of Natural Language Processing (NLP) you applied in this project? Additionally, how did you ensure the chatbot maintained a natural flow in conversation, particularly in handling diverse inputs like rap lyrics, which often contain unique linguistic structures and slang?"
+        },
+        "answers": {
+            "self_introduction": "Hi, myself Hema, I am working as an AI engineer in BVD paper private hunted and I am working with many LLM and RAC based projects for my company. Currently I am developing an AI interviewer role for my company.",
+            "question_1": "Thank you for watching.",
+            "question_2": "Actually, for reducing latency, I am using WebSocket and WebRTC for my project. Because for timing, latency is important for my project.",
+            "question_3": "Actually, for a real-time stream, it will be really helpful to have a one-to-one discussion with like a human interaction.",
+            "question_4": "Why are you repeatedly asking this kind of questions from WebSocket and WebRTC? Can you please change your question?",
+            "question_5": "Sorry, I don't know about that because recently only I started these projects, will you please ask about my some other projects?",
+            "question_6": "Yeah, actually one of my projects is a rap based chatbot I'm building for my company from video to audio conversion, from audio to text conversion using OpenAI.",
+            "question_7": "Actually, this is for my students. In the time of interview, the chatbot will be really helpful. I told you now, from audio to video, from video to text conversion, stored in a chroma db."
+        },
+        "evaluations": {
+            "self_introduction": {
+                "question": "Please tell me a little about yourself and your background.",
+                "answer": "Hi, myself Hema, I am working as an AI engineer in BVD paper private hunted and I am working with many LLM and RAC based projects for my company. Currently I am developing an AI interviewer role for my company.",
+                "skill_assessed": "Communication Skills",
+                "evaluation": {
+                    "relevance_score": 3,
+                    "depth_score": 2,
+                    "accuracy_score": 3,
+                    "completeness_score": 2,
+                    "communication_score": 3,
+                    "overall_score": 6,
+                    "rationale": "The candidate's answer is somewhat relevant as it introduces their role as an AI engineer and mentions working on LLM and RAC based projects, which aligns with their resume. However, the mention of 'BVD paper private hunted' is unclear and may be a typo or miscommunication. The depth of the answer is lacking; it does not provide specific details about their experience, skills, or projects, which would be expected from someone with 6 years of experience. While the information is mostly accurate regarding their current focus on developing an AI interviewer, the lack of detail and technical depth is a drawback. The answer is brief and somewhat clear but lacks structure and elaboration that would provide a more complete picture of the candidate's background. Overall, the response meets basic relevance but fails to convey the depth and completeness expected at an intermediate level."
+                }
+            },
+            "question_1": {
+                "question": "Can you describe a specific challenge you faced while implementing real-time communication using WebRTC in your AI interviewer project, and how you resolved it?",
+                "answer": "Thank you for watching.",
+                "skill_assessed": "Project Management & Collaboration",
+                "evaluation": {
+                    "relevance_score": 1,
+                    "depth_score": 1,
+                    "accuracy_score": 1,
+                    "completeness_score": 1,
+                    "communication_score": 1,
+                    "overall_score": 2,
+                    "rationale": "The candidate's answer does not address the question at all, as they simply stated 'Thank you for watching,' which is unrelated to the challenge faced during the implementation of WebRTC in their project. There is no demonstration of technical depth, factual accuracy, or comprehensive details. The response lacks clarity and structure, making it ineffective in communicating any relevant information. Given the candidate's 6 years of experience, the expectations for an intermediate-level interview were not met."
+                }
+            },
+            "question_2": {
+                "question": "Can you elaborate on how you integrated FastAPI with WebSocket in your AI interviewer project to enhance real-time communication, and what specific advantages did you find in that approach compared to other frameworks?",
+                "answer": "Actually, for reducing latency, I am using WebSocket and WebRTC for my project. Because for timing, latency is important for my project.",
+                "skill_assessed": "Project Management & Collaboration",
+                "evaluation": {
+                    "relevance_score": 3,
+                    "depth_score": 2,
+                    "accuracy_score": 4,
+                    "completeness_score": 2,
+                    "communication_score": 3,
+                    "overall_score": 6,
+                    "rationale": "The candidate's answer touches on relevant aspects of the question, specifically mentioning WebSocket and WebRTC, which are technologies they used in their project. However, the response lacks depth and specifics on how FastAPI is integrated with WebSocket and the specific advantages of this combination. For a candidate with 6 years of experience, a more detailed explanation of the implementation and benefits would be expected. The answer is factually correct, but it doesn't fully address the question's requirements, making it incomplete. The communication is clear but lacks structure and detail, resulting in a moderate score."
+                }
+            },
+            "question_3": {
+                "question": "Given your experience with WebSocket and WebRTC for reducing latency in your AI interviewer project, can you discuss how you approached optimizing the real-time communication pipeline? Specifically, what techniques or strategies did you implement to ensure low latency while maintaining high-quality audio/text interaction, and how do you measure the effectiveness of these optimizations?",
+                "answer": "Actually, for a real-time stream, it will be really helpful to have a one-to-one discussion with like a human interaction.",
+                "skill_assessed": "Project Management & Collaboration",
+                "evaluation": {
+                    "relevance_score": 1,
+                    "depth_score": 1,
+                    "accuracy_score": 2,
+                    "completeness_score": 1,
+                    "communication_score": 2,
+                    "overall_score": 3,
+                    "rationale": "The candidate's response was largely irrelevant to the question asked, which focused on specific techniques for optimizing a real-time communication pipeline using WebSocket and WebRTC. Rather than discussing strategies for low latency and maintaining audio/text quality, the candidate offered a vague statement about the benefits of human interaction. This lacks the technical depth expected from a candidate with 6 years of experience. The answer did not provide measurable techniques or methods, leading to a low completeness score. While the candidate's communication was clear, it was not structured around the question, resulting in a lower communication score. Overall, the response failed to demonstrate an understanding of relevant concepts or practices in real-time systems."
+                }
+            },
+            "question_4": {
+                "question": "Can you elaborate on how you integrated FastAPI with WebSocket and WebRTC in your project to enhance the performance of the real-time communication, specifically focusing on any challenges you faced and how you overcame them?",
+                "answer": "Why are you repeatedly asking this kind of questions from WebSocket and WebRTC? Can you please change your question?",
+                "skill_assessed": "Project Management & Collaboration",
+                "evaluation": {
+                    "relevance_score": 1,
+                    "depth_score": 0,
+                    "accuracy_score": 0,
+                    "completeness_score": 0,
+                    "communication_score": 1,
+                    "overall_score": 2,
+                    "rationale": "The candidate's response failed to address the question, which asked for specific details about their integration of FastAPI with WebSocket and WebRTC. Instead of providing insights into their experience, challenges faced, and solutions implemented, the candidate deflected the question and requested a change. This lack of engagement indicates a poor understanding of the topic, especially considering their claimed experience in real-time systems. As a result, the scores reflect a failure to demonstrate relevance, depth, accuracy, and completeness in the answer. The only positive aspect was a minimal level of communication clarity in their request for a different question, hence a score of 1 for communication."
+                }
+            },
+            "question_5": {
+                "question": "Given your extensive experience with real-time systems and the development of your AI interviewer platform, can you share how you approached the challenge of ensuring data integrity and synchronization across multiple client connections when using WebSocket? Additionally, what strategies did you implement to manage potential network latency issues and ensure a smooth user experience during real-time interactions?",
+                "answer": "Sorry, I don't know about that because recently only I started these projects, will you please ask about my some other projects?",
+                "skill_assessed": "General Technical Competency",
+                "evaluation": {
+                    "relevance_score": 1,
+                    "depth_score": 1,
+                    "accuracy_score": 1,
+                    "completeness_score": 1,
+                    "communication_score": 2,
+                    "overall_score": 2,
+                    "rationale": "The candidate's response does not address the question at all, indicating a lack of relevance and depth concerning data integrity and synchronization in real-time systems. With 6 years of experience, one would expect them to provide insights on strategies for managing WebSocket connections and latency issues, yet they expressed a lack of knowledge about the topic. The answer also fails to demonstrate any technical accuracy or completeness regarding their projects. While the communication was clear in stating their unfamiliarity with the topic, it lacked the necessary detail and structure expected at an intermediate level."
+                }
+            },
+            "question_6": {
+                "question": "Could you elaborate on a different project where you utilized FastAPI for building a machine learning application, specifically focusing on how you handled model deployment and ensured efficient API performance?",
+                "answer": "Yeah, actually one of my projects is a rap based chatbot I'm building for my company from video to audio conversion, from audio to text conversion using OpenAI.",
+                "skill_assessed": "Project Management & Collaboration",
+                "evaluation": {
+                    "relevance_score": 2,
+                    "depth_score": 2,
+                    "accuracy_score": 3,
+                    "completeness_score": 2,
+                    "communication_score": 2,
+                    "overall_score": 6,
+                    "rationale": "The candidate's answer lacks direct relevance to the question about deploying a machine learning model using FastAPI, which was the specific focus of the inquiry. Although they mentioned working on a chatbot that involves video and audio conversion, they did not elaborate on how FastAPI was utilized for model deployment or managing API performance. This indicates a lack of depth expected from someone with 6 years of experience. While the mention of OpenAI aligns with their resume, the response is vague and lacks the necessary technical details. The answer also lacks structure and clarity, making it difficult to follow."
+                }
+            },
+            "question_7": {
+                "question": "Given your experience with developing a rap-based chatbot utilizing video-to-audio and audio-to-text conversion, can you walk us through the specific aspects of Natural Language Processing (NLP) you applied in this project? Additionally, how did you ensure the chatbot maintained a natural flow in conversation, particularly in handling diverse inputs like rap lyrics, which often contain unique linguistic structures and slang?",
+                "answer": "Actually, this is for my students. In the time of interview, the chatbot will be really helpful. I told you now, from audio to video, from video to text conversion, stored in a chroma db.",
+                "skill_assessed": "Project Management & Collaboration",
+                "evaluation": {
+                    "relevance_score": 2,
+                    "depth_score": 1,
+                    "accuracy_score": 3,
+                    "completeness_score": 1,
+                    "communication_score": 2,
+                    "overall_score": 5,
+                    "rationale": "The candidate's response lacks relevance to the question, as they did not specifically address the NLP aspects of their project or the handling of diverse linguistic structures in rap lyrics. The answer demonstrates minimal depth and does not reflect the expected technical understanding for someone with 6 years of experience. While there is some mention of audio to text conversion, the details are vague and do not provide a clear picture of the NLP techniques applied. The communication is unclear, lacking structure and coherence, which detracts from the overall effectiveness of the response. The candidate did mention storing data in ChromaDB, which aligns with their resume, but overall, the answer does not meet the expectations for an intermediate-level interview."
+                }
+            }
+        }
+    },
+    "HemaSenthilMurugan_d9ccdb89-cbeb-47dc-9e94-441b5b5b6267": {
+        "questions": {
+            "q1_python_django_project": "Can you describe a complex project where you used Python and Django to deliver a scalable web application, detailing your approach to project management, the challenges you faced, and how you ensured effective team collaboration throughout the development process?",
+            "q2_aws_experience": "Can you describe a complex project where you utilized AWS services, specifically EC2 and S3, to implement a scalable solution, and detail the architectural decisions you made to optimize performance and cost?",
+            "q3_problem_solving_design": "Can you describe a challenging project where you had to design the architecture for a web application using AWS services, detailing your decision-making process and how you addressed any scalability and performance issues?"
+        },
+        "answers": {
+            "q1_python_django_project": "In my previous role at Tech Solutions Inc., I led the development of a new customer management portal using Python and Django. My key contributions included designing the database schema, implementing the user authentication system, and optimizing database queries. The main challenge was integrating with a legacy CRM, which required careful planning, data mapping, and custom middleware. I addressed this by developing a robust API layer on top of the CRM.",
+            "q2_aws_experience": "I have experience with several AWS services, including EC2 for compute, S3 for scalable object storage, and RDS for managed databases. In one project, we migrated an on-premise application to AWS, setting up auto-scaling EC2 instances behind an Application Load Balancer and storing user-uploaded content in S3. We also utilized CloudWatch for monitoring and SQS for decoupling microservices, significantly improving our system's fault tolerance and scalability.",
+            "q3_problem_solving_design": "Certainly. One significant design challenge I faced was ensuring high availability for a critical microservice. We decided to implement a redundant architecture using an active-passive setup across multiple availability zones in AWS. This involved setting up health checks, automated failover mechanisms, and ensuring data consistency across replicas. We also employed circuit breakers and bulkheads to isolate failures."
+        },
+        "evaluations": {
+            "q1_python_django_project": {
+                "question": "Can you describe a complex project where you used Python and Django to deliver a scalable web application, detailing your approach to project management, the challenges you faced, and how you ensured effective team collaboration throughout the development process?",
+                "answer": "In my previous role at Tech Solutions Inc., I led the development of a new customer management portal using Python and Django. My key contributions included designing the database schema, implementing the user authentication system, and optimizing database queries. The main challenge was integrating with a legacy CRM, which required careful planning, data mapping, and custom middleware. I addressed this by developing a robust API layer on top of the CRM.",
+                "skill_assessed": "Python, Django, Project Management",
+                "evaluation": {
+                    "relevance_score": 5,
+                    "depth_score": 4,
+                    "accuracy_score": 5,
+                    "completeness_score": 4,
+                    "communication_score": 5,
+                    "overall_score": 9,
+                    "rationale": "The candidate's answer is highly relevant to the question, detailing a specific project where they used Python and Django to create a scalable application. They demonstrate a good level of depth, explaining their key contributions and the challenges faced, which aligns well with the expectations for someone with 6 years of experience in an advanced interview. All information appears accurate and consistent with their resume, particularly regarding their expertise in Python and web development. The answer is mostly comprehensive, though it could have included more about project management and team collaboration aspects, which were part of the question. However, the candidate communicated their points clearly and concisely, articulating their thought process effectively. Overall, the candidate provided a strong response that showcases their skills and experience well."
+                }
+            },
+            "q2_aws_experience": {
+                "question": "Can you describe a complex project where you utilized AWS services, specifically EC2 and S3, to implement a scalable solution, and detail the architectural decisions you made to optimize performance and cost?",
+                "answer": "I have experience with several AWS services, including EC2 for compute, S3 for scalable object storage, and RDS for managed databases. In one project, we migrated an on-premise application to AWS, setting up auto-scaling EC2 instances behind an Application Load Balancer and storing user-uploaded content in S3. We also utilized CloudWatch for monitoring and SQS for decoupling microservices, significantly improving our system's fault tolerance and scalability.",
+                "skill_assessed": "AWS Cloud Services, Scalability",
+                "evaluation": {
+                    "relevance_score": 5,
+                    "depth_score": 4,
+                    "accuracy_score": 5,
+                    "completeness_score": 4,
+                    "communication_score": 4,
+                    "overall_score": 9,
+                    "rationale": "The candidate's answer is highly relevant as it directly addresses the question about utilizing AWS services, specifically EC2 and S3, in a scalable solution context. Their professional background of 6 years aligns well with the complexity of the project described. The depth of their answer is strong, demonstrating an understanding of various AWS services beyond just EC2 and S3, such as RDS, CloudWatch, and SQS, which showcases their advanced knowledge. The information they provided is accurate and consistent with their resume, reflecting their experience with AWS. The answer is fairly comprehensive, detailing architectural decisions that contributed to performance and cost optimization, though it could have included more specifics on cost considerations. Communication is mostly clear and structured, but there is a slight lack of conciseness, which slightly detracts from the overall effectiveness. Overall, the candidate demonstrates a solid grasp of AWS services and architectural principles suitable for an advanced-level position."
+                }
+            },
+            "q3_problem_solving_design": {
+                "question": "Can you describe a challenging project where you had to design the architecture for a web application using AWS services, detailing your decision-making process and how you addressed any scalability and performance issues?",
+                "answer": "Certainly. One significant design challenge I faced was ensuring high availability for a critical microservice. We decided to implement a redundant architecture using an active-passive setup across multiple availability zones in AWS. This involved setting up health checks, automated failover mechanisms, and ensuring data consistency across replicas. We also employed circuit breakers and bulkheads to isolate failures.",
+                "skill_assessed": "High Availability, System Design, Problem Solving",
+                "evaluation": {
+                    "relevance_score": 5,
+                    "depth_score": 5,
+                    "accuracy_score": 5,
+                    "completeness_score": 4,
+                    "communication_score": 5,
+                    "overall_score": 10,
+                    "rationale": "The candidate's answer is highly relevant to the question, directly addressing their experience with AWS and architecture design. The depth of the response demonstrates a strong understanding of advanced architectural concepts, which is appropriate for their 6 years of experience. The information presented is accurate and aligns well with their stated skills and experience in AWS and scalable web applications. The answer is comprehensive, detailing multiple strategies such as active-passive setups and health checks, though it could have included a specific example of a scalability issue encountered for completeness. The communication is clear and concise, making the complex ideas easy to understand. Overall, the candidate has provided an exceptional response fitting for an advanced level interview."
+                }
+            }
+        }
+    },
+    "HEMA_af85e772-fc6f-44ee-bb9d-005c1ab2af2f": {
+        "questions": {
+            "self_introduction": "Please tell me a little about yourself and your background."
+        },
+        "answers": {
+            "self_introduction": "Hi, myself Hema. I'm working as a AI engineer in Google Geek Network Private Unit and I'm working with many LLM and RAG or AG based projects. So,"
+        },
+        "evaluations": {
+            "self_introduction": {
+                "question": "Please tell me a little about yourself and your background.",
+                "answer": "Hi, myself Hema. I'm working as a AI engineer in Google Geek Network Private Unit and I'm working with many LLM and RAG or AG based projects. So,",
+                "skill_assessed": "Communication Skills",
+                "evaluation": {}
+            }
+        }
+    },
+    "HEMA_9900daa3-9352-4fbf-bb37-5fbf3db3ead3": {
+        "questions": {
+            "self_introduction": "Please tell me a little about yourself and your background."
+        },
+        "answers": {
+            "self_introduction": "Hi, I'm Hema. I'm working as an AI engineer in Groovy Geek Network Pvt. Ltd. And I'm working with many LLM and REG based projects for my company. And I'm looking forward to work with different domains."
+        },
+        "evaluations": {
+            "self_introduction": {
+                "question": "Please tell me a little about yourself and your background.",
+                "answer": "Hi, I'm Hema. I'm working as an AI engineer in Groovy Geek Network Pvt. Ltd. And I'm working with many LLM and REG based projects for my company. And I'm looking forward to work with different domains.",
+                "skill_assessed": "Communication Skills",
+                "evaluation": {}
+            }
+        }
+    },
+    "HEMA_fa7b8f0b-d68b-4753-a171-29b7dcafba81": {
+        "questions": {
+            "self_introduction": "Please tell me a little about yourself and your background.",
+            "question_2": "Can you elaborate on the specific challenges you faced while working on Retrieval Augmented Generation projects and how you approached solving them?",
+            "question_3": "Given your experience with video-to-audio and audio-to-text conversions, can you describe how you ensured the accuracy of the transcriptions and the efficiency of storing this data in ChromaDB? Additionally, how did you handle any discrepancies that arose during this process?",
+            "question_4": "Can you elaborate on the specific methods you used to evaluate the accuracy of the transcriptions produced by the Whisper OpenAI model, and how you integrated feedback from this evaluation into your workflow?",
+            "question_5": "Based on your experience with testing and ensuring the accuracy of transcriptions using the Whisper OpenAI model, can you walk me through how you would approach optimizing the real-time performance of your AI interviewer platform, particularly regarding the handling of STT and TTS in a live interaction scenario? What considerations would you prioritize to ensure minimal latency and maximum reliability for users?",
+            "question_6": "Can you elaborate on how you would leverage your knowledge of WebSockets and WebRTC to address potential challenges in synchronization between speech-to-text and text-to-speech during a live interaction?",
+            "question_7": "Given your recent exploration of WebSockets and WebRTC, can you discuss how you would approach implementing a real-time feature in your AI interviewer platform that ensures seamless communication? Specifically, what strategies would you consider for managing potential latency issues during simultaneous speech-to-text and text-to-speech processing, and how might you leverage your understanding of asynchronous programming to optimize this interaction?"
+        },
+        "answers": {
+            "self_introduction": "Hi, I'm Hema. I'm working as an AI engineer in Neuron Eye Technologies and I'm working with many LLM and REG, Retrieval Augmented Generation based projects. I'm currently working with Google.",
+            "question_2": "Yeah, one of my project is taking a video from audio conversion, audio to text conversion and with text with timestamp stored in a chroma db.",
+            "question_3": "Yeah, actually, I'm using MoviePi2 from video to audio conversion and Whisper OpenAI, this one model from audio to text conversion with timestamp using regressing character splitters to split.",
+            "question_4": "Yeah, actually, I'll be testing using...",
+            "question_5": "For actually, for real-time interaction scenario, I'm currently working on it. I know about the basics only, like WebSockets and WebRTC related stuffs.",
+            "question_6": "Actually, I didn't work on it. I am currently started to exploring that WebSockets and WebRTC.",
+            "question_7": "Yeah, for reducing latency, it is a major and for using a web sockets and web RTCs are really"
+        },
+        "evaluations": {
+            "self_introduction": {
+                "question": "Please tell me a little about yourself and your background.",
+                "answer": "Hi, I'm Hema. I'm working as an AI engineer in Neuron Eye Technologies and I'm working with many LLM and REG, Retrieval Augmented Generation based projects. I'm currently working with Google.",
+                "skill_assessed": "Communication Skills",
+                "evaluation": {}
+            },
+            "question_2": {
+                "question": "Can you elaborate on the specific challenges you faced while working on Retrieval Augmented Generation projects and how you approached solving them?",
+                "answer": "Yeah, one of my project is taking a video from audio conversion, audio to text conversion and with text with timestamp stored in a chroma db.",
+                "skill_assessed": "Problem Solving",
+                "evaluation": {}
+            },
+            "question_3": {
+                "question": "Given your experience with video-to-audio and audio-to-text conversions, can you describe how you ensured the accuracy of the transcriptions and the efficiency of storing this data in ChromaDB? Additionally, how did you handle any discrepancies that arose during this process?",
+                "answer": "Yeah, actually, I'm using MoviePi2 from video to audio conversion and Whisper OpenAI, this one model from audio to text conversion with timestamp using regressing character splitters to split.",
+                "skill_assessed": "Data Manipulation & Analysis",
+                "evaluation": {}
+            },
+            "question_4": {
+                "question": "Can you elaborate on the specific methods you used to evaluate the accuracy of the transcriptions produced by the Whisper OpenAI model, and how you integrated feedback from this evaluation into your workflow?",
+                "answer": "Yeah, actually, I'll be testing using...",
+                "skill_assessed": "Data Analysis",
+                "evaluation": {}
+            },
+            "question_5": {
+                "question": "Based on your experience with testing and ensuring the accuracy of transcriptions using the Whisper OpenAI model, can you walk me through how you would approach optimizing the real-time performance of your AI interviewer platform, particularly regarding the handling of STT and TTS in a live interaction scenario? What considerations would you prioritize to ensure minimal latency and maximum reliability for users?",
+                "answer": "For actually, for real-time interaction scenario, I'm currently working on it. I know about the basics only, like WebSockets and WebRTC related stuffs.",
+                "skill_assessed": "Real-time Systems Optimization",
+                "evaluation": {}
+            },
+            "question_6": {
+                "question": "Can you elaborate on how you would leverage your knowledge of WebSockets and WebRTC to address potential challenges in synchronization between speech-to-text and text-to-speech during a live interaction?",
+                "answer": "Actually, I didn't work on it. I am currently started to exploring that WebSockets and WebRTC.",
+                "skill_assessed": "WebSockets and WebRTC",
+                "evaluation": {}
+            },
+            "question_7": {
+                "question": "Given your recent exploration of WebSockets and WebRTC, can you discuss how you would approach implementing a real-time feature in your AI interviewer platform that ensures seamless communication? Specifically, what strategies would you consider for managing potential latency issues during simultaneous speech-to-text and text-to-speech processing, and how might you leverage your understanding of asynchronous programming to optimize this interaction?",
+                "answer": "Yeah, for reducing latency, it is a major and for using a web sockets and web RTCs are really",
+                "skill_assessed": "Asynchronous Programming",
+                "evaluation": {}
+            }
+        }
+    },
+    "HEMA_b08d36e4-8ecc-42de-baae-d9f2fa432e32": {
+        "questions": {
+            "self_introduction": "Please tell me a little about yourself and your background.",
+            "question_2": "Can you share a specific project you've worked on involving LLM or RAG that you found particularly challenging or rewarding?",
+            "question_3": "Based on your experience with video and audio conversion using ChromaDB, can you describe how you approached the integration of audio transcription in your projects and what challenges you faced while ensuring accuracy in the text output?"
+        },
+        "answers": {
+            "self_introduction": "Hi, myself Aima. I'm working as an AI engineer in a movie network private method. And I'm working with many LLM and RAG or ENG based programs.",
+            "question_2": "Yes, one of my RAD projects is starting from video to audio conversion, audio to text conversion with the timestamp storing in ChromaDV.",
+            "question_3": "Actually, I am using a transcription with a timestamp, using represent characters papers to..."
+        },
+        "evaluations": {
+            "self_introduction": {
+                "question": "Please tell me a little about yourself and your background.",
+                "answer": "Hi, myself Aima. I'm working as an AI engineer in a movie network private method. And I'm working with many LLM and RAG or ENG based programs.",
+                "skill_assessed": "Communication Skills",
+                "evaluation": {}
+            },
+            "question_2": {
+                "question": "Can you share a specific project you've worked on involving LLM or RAG that you found particularly challenging or rewarding?",
+                "answer": "Yes, one of my RAD projects is starting from video to audio conversion, audio to text conversion with the timestamp storing in ChromaDV.",
+                "skill_assessed": "LLM",
+                "evaluation": {}
+            },
+            "question_3": {
+                "question": "Based on your experience with video and audio conversion using ChromaDB, can you describe how you approached the integration of audio transcription in your projects and what challenges you faced while ensuring accuracy in the text output?",
+                "answer": "Actually, I am using a transcription with a timestamp, using represent characters papers to...",
+                "skill_assessed": "Audio Transcription",
+                "evaluation": {}
+            }
+        }
+    },
+    "HEMA_7ebeb704-fe40-4258-825c-f4d1c484fd83": {
+        "questions": {
+            "self_introduction": "Please tell me a little about yourself and your background.",
+            "question_1": "Can you describe a specific project where you applied machine learning techniques to analyze data and derive insights, detailing the challenges you faced and how you overcame them?",
+            "question_2": "Can you explain what specific machine learning techniques you used to understand the students and how you implemented them in your project?",
+            "question_3": "Given your experience with the XGBoost algorithm and n-sampling techniques, can you explain how you handle data imbalances in your projects and how this has impacted the performance of your machine learning models?",
+            "question_4": "Can you give an example of a specific project where you applied undersampling or oversampling, and describe how it influenced your model's accuracy?",
+            "question_5": "Given your experience with machine learning techniques and your last answer about data imbalance, can you explain how you would approach feature selection in a dataset to ensure that your model remains robust, especially when dealing with imbalanced classes?"
+        },
+        "answers": {
+            "self_introduction": "Hi, I'm Hema. I'm working as an AI engineer in Birgit, in the head of Private Intel. And I'm working with many LLM and RAC based projects for my company. I'm looking forward to work with different domains.",
+            "question_1": "Actually, I am working with many machine learning techniques, one of my project is understanding the student.",
+            "question_2": "I am using n-sampling technique for my project using XGBoost algorithm to analyze the data",
+            "question_3": "Yes, to identifying the balancing, imbalancing data concept using undersampling or oversampling to overcome the problem.",
+            "question_4": "If I am using oversampling definitely my model accuracy will be increasing and if I am using undersampling the accuracy will be decreasing.",
+            "question_5": "Actually, for my project, I am using for feature selection, R&E feature selection, recursive feature elimination and chi-squared test for my classification."
+        },
+        "evaluations": {
+            "self_introduction": {
+                "question": "Please tell me a little about yourself and your background.",
+                "answer": "Hi, I'm Hema. I'm working as an AI engineer in Birgit, in the head of Private Intel. And I'm working with many LLM and RAC based projects for my company. I'm looking forward to work with different domains.",
+                "skill_assessed": "Communication Skills",
+                "evaluation": {
+                    "relevance_score": 3,
+                    "depth_score": 2,
+                    "accuracy_score": 2,
+                    "completeness_score": 3,
+                    "communication_score": 3,
+                    "overall_score": 7,
+                    "rationale": "The candidate's response provides some relevant information about their role, but it fails to accurately match their resume details, such as their current position and responsibilities. The mention of 'working as an AI engineer in Birgit' does not align with their listed experience as a Data Support Intern at GUVI Geek Network. The depth of the response is limited, lacking specific examples or insights from their projects. While the answer is somewhat clear, it lacks structure and could benefit from more detailed elaboration on their skills and experiences. Overall, the candidate demonstrates a basic understanding of their background but misses key aspects that would have made their answer more robust and aligned with their resume."
+                }
+            },
+            "question_1": {
+                "question": "Can you describe a specific project where you applied machine learning techniques to analyze data and derive insights, detailing the challenges you faced and how you overcame them?",
+                "answer": "Actually, I am working with many machine learning techniques, one of my project is understanding the student.",
+                "skill_assessed": "Project Management & Collaboration",
+                "evaluation": {
+                    "relevance_score": 2,
+                    "depth_score": 1,
+                    "accuracy_score": 3,
+                    "completeness_score": 1,
+                    "communication_score": 2,
+                    "overall_score": 5,
+                    "rationale": "The candidate's answer is somewhat relevant as they mention working on a project involving machine learning, but they do not provide specific details about the project, the techniques used, or the insights derived. The depth of the response is lacking, with no substantial information on challenges faced or how they were overcome, which is expected for someone with a year of experience. The accuracy is moderate as the candidate mentions 'understanding the student,' but does not elaborate, leaving ambiguity. The completeness of the answer is low; it lacks necessary details to paint a clear picture. Communication is also weak, as the response is vague and not articulated in a structured way. Overall, while there are hints of relevant experience, the lack of detail and clarity significantly impacts the score."
+                }
+            },
+            "question_2": {
+                "question": "Can you explain what specific machine learning techniques you used to understand the students and how you implemented them in your project?",
+                "answer": "I am using n-sampling technique for my project using XGBoost algorithm to analyze the data",
+                "skill_assessed": "Project Management & Collaboration",
+                "evaluation": {
+                    "relevance_score": 3,
+                    "depth_score": 3,
+                    "accuracy_score": 4,
+                    "completeness_score": 3,
+                    "communication_score": 3,
+                    "overall_score": 7,
+                    "rationale": "The candidate's answer is relevant as they mention using the XGBoost algorithm, which aligns with their experience in building a predictive enrollment model. However, the answer lacks detail about how the n-sampling technique is specifically applied in the context of understanding students, which would have provided better insight into their analytical approach. The depth is appropriate for a candidate with 1 year of experience, but could include more specific examples or results from their project. The mention of XGBoost is accurate and consistent with their resume. However, the answer feels somewhat incomplete as it does not cover the full breadth of their work or insights gained. Communication is clear but lacks structure, making it harder to grasp the full picture of their implementation."
+                }
+            },
+            "question_3": {
+                "question": "Given your experience with the XGBoost algorithm and n-sampling techniques, can you explain how you handle data imbalances in your projects and how this has impacted the performance of your machine learning models?",
+                "answer": "Yes, to identifying the balancing, imbalancing data concept using undersampling or oversampling to overcome the problem.",
+                "skill_assessed": "Project Management & Collaboration",
+                "evaluation": {
+                    "relevance_score": 3,
+                    "depth_score": 2,
+                    "accuracy_score": 4,
+                    "completeness_score": 2,
+                    "communication_score": 3,
+                    "overall_score": 6,
+                    "rationale": "The candidate's answer is somewhat relevant as it touches on data imbalance concepts, which relates to their experience with XGBoost. However, it lacks specificity and fails to provide examples or detail on how they implement undersampling or oversampling in practice. For a candidate with 1 year of experience, a deeper explanation of techniques or examples of impact on model performance would be expected. The information is mostly accurate but lacks depth and completeness. The communication is clear but not detailed enough to convey a strong understanding of the topic."
+                }
+            },
+            "question_4": {
+                "question": "Can you give an example of a specific project where you applied undersampling or oversampling, and describe how it influenced your model's accuracy?",
+                "answer": "If I am using oversampling definitely my model accuracy will be increasing and if I am using undersampling the accuracy will be decreasing.",
+                "skill_assessed": "Project Management & Collaboration",
+                "evaluation": {
+                    "relevance_score": 2,
+                    "depth_score": 2,
+                    "accuracy_score": 3,
+                    "completeness_score": 2,
+                    "communication_score": 2,
+                    "overall_score": 6,
+                    "rationale": "The candidate's answer is partially relevant as it touches on the effects of oversampling and undersampling on model accuracy, which relates to the question. However, it lacks specific examples or a detailed explanation of a project where these techniques were applied. The depth of the answer is minimal, reflecting a basic understanding but not demonstrating practical experience with the techniques mentioned. The accuracy of the statement is correct in a general sense, but it does not provide enough context to showcase the candidate's experience effectively. The answer also lacks completeness, as it does not cover necessary details or provide insights into how the candidate has used these techniques in practice. Lastly, the communication is unclear and lacks structure, making it difficult to follow. Overall, the candidate needs to offer specific examples and a deeper explanation of their experiences to meet the expectations for this level of questioning."
+                }
+            },
+            "question_5": {
+                "question": "Given your experience with machine learning techniques and your last answer about data imbalance, can you explain how you would approach feature selection in a dataset to ensure that your model remains robust, especially when dealing with imbalanced classes?",
+                "answer": "Actually, for my project, I am using for feature selection, R&E feature selection, recursive feature elimination and chi-squared test for my classification.",
+                "skill_assessed": "General Technical Competency",
+                "evaluation": {
+                    "relevance_score": 4,
+                    "depth_score": 3,
+                    "accuracy_score": 4,
+                    "completeness_score": 3,
+                    "communication_score": 3,
+                    "overall_score": 7,
+                    "rationale": "The candidate's answer is relevant as it directly addresses the question of feature selection in the context of machine learning, which aligns with their experience. They mention specific techniques (RFE, chi-squared test), demonstrating a basic understanding of feature selection methods. However, the depth of the response could be improved by explaining how these methods relate to handling imbalanced classes. The answer is factually correct and consistent with the candidate's resume, but it lacks comprehensive detail on the impact of feature selection on model robustness, particularly in the context of imbalanced data. Additionally, the communication could be clearer; while the terms used are correct, the explanation is somewhat abrupt and could benefit from elaboration on how these methods contribute to model performance."
+                }
+            }
+        }
+    },
+    "HEMA_f693184a-6d1d-468e-8c32-7d04304fafe8": {
+        "questions": {
+            "self_introduction": "Please tell me a little about yourself and your background.",
+            "question_1": "Can you describe a specific challenge you faced while developing the backend for the AI-powered mock interviewer, particularly related to integrating the Speech-to-Text and Text-to-Speech features, and how you resolved it?",
+            "question_2": "Can you explain how you handle the data preprocessing for the Speech-to-Text and Text-to-Speech models in your project?",
+            "question_3": "Given your experience with developing the backend for the AI-powered mock interviewer, can you briefly explain how you would approach evaluating the performance of your machine learning models in this project?",
+            "question_4": "Could you clarify which specific metrics you would use to evaluate the performance of your machine learning models in the mock interviewer project?",
+            "question_5": "Based on your experience with integrating Speech-to-Text and Text-to-Speech features in your AI mock interviewer project, could you describe a simple method you would use to improve the user experience in terms of feedback and responsiveness during the evaluation process?"
+        },
+        "answers": {
+            "self_introduction": "Hi, myself Hema. I'm working as an AI engineer in Google Geek Network Private Limited and I'm working with many LLM and Retrieval Augmented Generation projects for my company. Thank you.",
+            "question_1": "Yeah, currently I'm working with this project only. For text-to-speech, I'm using OpenAI model, OpenAI 4.0 Mini ETS. And for speech-to-text, I'm using OpenAI 4.0 Mini ETS.",
+            "question_2": "I didn't do any data pre-processing process. This is for, our aim is to get a resume from the candidate.",
+            "question_3": "the but but",
+            "question_4": "For evaluation process, I am using for relevant accuracy and depth of the knowledge and communication skills based on the criteria.",
+            "question_5": "Yes, definitely the feedback will be helpful to improve their candidate performance, so they can learn many things after taking this interview process."
+        },
+        "evaluations": {
+            "self_introduction": {
+                "question": "Please tell me a little about yourself and your background.",
+                "answer": "Hi, myself Hema. I'm working as an AI engineer in Google Geek Network Private Limited and I'm working with many LLM and Retrieval Augmented Generation projects for my company. Thank you.",
+                "skill_assessed": "Communication Skills",
+                "evaluation": {
+                    "relevance_score": 3,
+                    "depth_score": 2,
+                    "accuracy_score": 4,
+                    "completeness_score": 2,
+                    "communication_score": 3,
+                    "overall_score": 6,
+                    "rationale": "The candidate's response is somewhat relevant as it introduces their name and current position, which aligns with their resume. However, it lacks detail about their specific skills and projects, which would have added more relevance and depth. While the mention of working on LLM and Retrieval Augmented Generation projects is accurate and reflects their experience, the answer is too brief and lacks the comprehensive overview expected for someone in their position. Communication is clear, but the response could benefit from a more structured and informative approach, detailing their background, skills, and contributions to projects."
+                }
+            },
+            "question_1": {
+                "question": "Can you describe a specific challenge you faced while developing the backend for the AI-powered mock interviewer, particularly related to integrating the Speech-to-Text and Text-to-Speech features, and how you resolved it?",
+                "answer": "Yeah, currently I'm working with this project only. For text-to-speech, I'm using OpenAI model, OpenAI 4.0 Mini ETS. And for speech-to-text, I'm using OpenAI 4.0 Mini ETS.",
+                "skill_assessed": "Problem Solving",
+                "evaluation": {
+                    "relevance_score": 3,
+                    "depth_score": 2,
+                    "accuracy_score": 3,
+                    "completeness_score": 2,
+                    "communication_score": 3,
+                    "overall_score": 6,
+                    "rationale": "The candidate's answer addresses the question but lacks specificity regarding the challenges faced during the integration of Speech-to-Text and Text-to-Speech features. While they mention using OpenAI models, they do not detail the specific challenges or how they resolved them, which is expected at this level of inquiry. The response is somewhat relevant but lacks depth and completeness, providing limited insight into problem-solving processes or technical difficulties encountered. The communication is clear, but the overall lack of detail and explanation affects the depth and completeness negatively."
+                }
+            },
+            "question_2": {
+                "question": "Can you explain how you handle the data preprocessing for the Speech-to-Text and Text-to-Speech models in your project?",
+                "answer": "I didn't do any data pre-processing process. This is for, our aim is to get a resume from the candidate.",
+                "skill_assessed": "Project Management & Collaboration",
+                "evaluation": {
+                    "relevance_score": 2,
+                    "depth_score": 1,
+                    "accuracy_score": 3,
+                    "completeness_score": 1,
+                    "communication_score": 2,
+                    "overall_score": 3,
+                    "rationale": "The candidate's answer is only partially relevant as it fails to address the data preprocessing aspect, which is crucial for Speech-to-Text and Text-to-Speech models. The depth of the answer is minimal, demonstrating a lack of understanding of data preprocessing, which is a fundamental concept in machine learning and data science. The accuracy is somewhat acceptable as the candidate correctly states they did not handle data preprocessing, but this is not a strong point given the context of the role. The completeness of the answer is lacking, as it does not provide any details about the project or the preprocessing that is typically required for such models. Communication is clear but does not convey enough information or insight, leading to a lower score overall."
+                }
+            },
+            "question_3": {
+                "question": "Given your experience with developing the backend for the AI-powered mock interviewer, can you briefly explain how you would approach evaluating the performance of your machine learning models in this project?",
+                "answer": "the but but",
+                "skill_assessed": "AI/ML Proficiency",
+                "evaluation": {
+                    "relevance_score": 1,
+                    "depth_score": 1,
+                    "accuracy_score": 1,
+                    "completeness_score": 1,
+                    "communication_score": 1,
+                    "overall_score": 5,
+                    "rationale": "The candidate's answer, 'the but but,' does not address the question at all, showing a lack of relevance and depth. It does not provide any factual information or demonstrate understanding of machine learning model evaluation, which is expected from someone with their experience. The answer is also incomplete, as it does not contain any details that could be evaluated, and the communication is unclear and ineffective. Overall, this response fails to meet the basic expectations for the interview level."
+                }
+            },
+            "question_4": {
+                "question": "Could you clarify which specific metrics you would use to evaluate the performance of your machine learning models in the mock interviewer project?",
+                "answer": "For evaluation process, I am using for relevant accuracy and depth of the knowledge and communication skills based on the criteria.",
+                "skill_assessed": "AI/ML Proficiency",
+                "evaluation": {
+                    "relevance_score": 3,
+                    "depth_score": 2,
+                    "accuracy_score": 3,
+                    "completeness_score": 2,
+                    "communication_score": 2,
+                    "overall_score": 6,
+                    "rationale": "The candidate's response is somewhat relevant as it touches on evaluating accuracy and depth of knowledge, which are important metrics for machine learning models. However, the answer lacks specific metrics that are commonly used in machine learning, such as precision, recall, F1-score, or ROC-AUC, which are more relevant for model evaluation. The depth is minimal, as the candidate does not elaborate on how these metrics would be applied in the context of the mock interviewer. While the information is generally accurate, the response is vague and lacks the comprehensive detail expected from someone with a year of experience. The communication is also unclear and not structured well, making it difficult to understand the candidate's evaluation process. Overall, the answer indicates a basic understanding but falls short in providing a complete and clear evaluation framework."
+                }
+            },
+            "question_5": {
+                "question": "Based on your experience with integrating Speech-to-Text and Text-to-Speech features in your AI mock interviewer project, could you describe a simple method you would use to improve the user experience in terms of feedback and responsiveness during the evaluation process?",
+                "answer": "Yes, definitely the feedback will be helpful to improve their candidate performance, so they can learn many things after taking this interview process.",
+                "skill_assessed": "Project Management & Collaboration",
+                "evaluation": {
+                    "relevance_score": 3,
+                    "depth_score": 2,
+                    "accuracy_score": 4,
+                    "completeness_score": 2,
+                    "communication_score": 3,
+                    "overall_score": 6,
+                    "rationale": "The candidate's answer is somewhat relevant as it recognizes the importance of feedback for candidate improvement, which ties into the integration of Speech-to-Text and Text-to-Speech features. However, the response lacks specific methods or actionable steps to enhance user experience, which was the crux of the question. Given their experience, a more detailed answer with examples of how to implement feedback mechanisms would have demonstrated greater depth. The answer is factually consistent with their resume, but it feels incomplete as it does not provide clear methodologies. Communication is fair but could benefit from more structured thought to enhance clarity."
+                }
+            }
+        }
+    }
+}

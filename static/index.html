@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Interviewer</title>
+    <link rel="stylesheet" href="/static/style.css"> <style>
+        /* Basic styling for demonstration */
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1, h2 { color: #333; }
+        label { display: block; margin-top: 10px; font-weight: bold; }
+        input[type="text"], textarea, select { width: calc(100% - 22px); padding: 10px; margin-top: 5px; border: 1px solid #ddd; border-radius: 4px; }
+        button { padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; margin-top: 15px; margin-right: 10px; }
+        button:hover:enabled { background-color: #0056b3; }
+        button:disabled { background-color: #cccccc; cursor: not-allowed; }
+        #statusMessage { margin-top: 15px; font-weight: bold; }
+        #aiAvatarVideo { width: 100%; max-width: 640px; margin: 20px auto; display: block; border: 1px solid #ddd; }
+        #interviewTranscript { border: 1px solid #eee; padding: 10px; height: 200px; overflow-y: scroll; background-color: #f9f9f9; margin-top: 20px; border-radius: 4px; }
+        #interviewSection, #finalReportSection { margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px; }
+        .hidden { display: none; }
+        .flex-container { display: flex; justify-content: space-between; gap: 20px; }
+        .flex-item { flex: 1; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Interviewer</h1>
+
+        <section id="interviewSetup">
+            <h2>Setup Your Interview</h2>
+            <div>
+                <label for="candidateName">Candidate Name:</label>
+                <input type="text" id="candidateName" placeholder="Enter candidate's name" required>
+            </div>
+            <div>
+                <label for="resumeText">Resume Text (Paste or type):</label>
+                <textarea id="resumeText" rows="10" placeholder="Paste candidate's resume text here..." required></textarea>
+            </div>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <label for="experienceLevel">Candidate's Actual Experience:</label>
+                    <select id="experienceLevel" required>
+                        <option value="">Select Experience Level</option>
+                        <option value="fresher">Fresher</option>
+                        <option value="1-2 years">1-2 years</option>
+                        <option value="3-5 years">3-5 years</option>
+                        <option value="5+ years">5+ years</option>
+                    </select>
+                </div>
+                <div class="flex-item">
+                    <label for="interviewLevel">Chosen Interview Difficulty Level:</label>
+                    <select id="interviewLevel" required>
+                        <option value="">Select Difficulty</option>
+                        <option value="Basic">Basic</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
+                    </select>
+                </div>
+            </div>
+            <button id="startInterviewBtn">Start Interview</button>
+            <p id="statusMessage" class="hidden"></p>
+        </section>
+
+        <section id="interviewSection" class="hidden">
+            <h2>Interview in Progress</h2>
+            <div style="text-align: center;">
+                <video id="aiAvatarVideo" controls autoplay muted playsinline></video>
+            </div>
+            <div id="interviewControls">
+                <h3>AI Interviewer:</h3>
+                <p id="currentQuestionDisplay"></p>
+
+                <label for="candidateAnswer">Your Answer:</label>
+                <textarea id="candidateAnswer" rows="5" placeholder="Type your answer here..."></textarea>
+                <button id="submitAnswerBtn">Submit Answer</button>
+                <button id="endInterviewBtn" style="background-color: #dc3545;">End Interview</button>
+            </div>
+            <h3>Transcript:</h3>
+            <div id="interviewTranscript">
+                </div>
+        </section>
+
+        <section id="finalReportSection" class="hidden">
+            <h2>Interview Report</h2>
+            <pre id="finalReportDisplay" style="white-space: pre-wrap; word-wrap: break-word; border: 1px solid #eee; padding: 15px; background-color: #f9f9f9;"></pre>
+            <button id="startNewInterviewBtn">Start New Interview</button>
+        </section>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
